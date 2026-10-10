@@ -1,0 +1,18 @@
+# SFT and evaluation (sft/, eval/). Python 3.12, CUDA 12.8 build of PyTorch:
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+#   pip install -r requirements.txt
+# Versions used for the paper; newer versions of the same major releases are expected to work.
+torch==2.11.0
+transformers==5.17.0
+trl==1.13.0
+peft==0.21.0
+accelerate==1.15.0
+datasets==5.0.1
+bitsandbytes==0.50.2          # only for the 4-bit (NF4) Qwen3.5-27B runs
+rdkit==2026.3.6
+numpy
+tqdm
+wandb                         # optional (NO_WANDB=1 switches it off)
+# fast kernels for the gated-delta-net (linear attention) layers of Qwen3.5
+flash-linear-attention==0.5.2
+tilelang==0.1.14

@@ -1,0 +1,15 @@
+runs/
+runs_grpo/
+runs_external/
+data_nocot/
+data_external/
+wandb/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Private training data (not released before publication)
+data/train_data.jsonl
+data/curated_train_data.jsonl
+data/molcot_paired_4k.jsonl
+scripts/build_paired_file.py

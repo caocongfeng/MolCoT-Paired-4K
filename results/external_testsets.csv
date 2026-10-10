@@ -1,0 +1,37 @@
+testset,model,run,n,strict_greedy_EM,answered_pct,EM_among_answered,validity,similarity
+ChEBI-20 test (unseen molecules),Base (untrained),0,3192,0.031,23.246,0.135,0.031,0.031
+ChEBI-20 test (unseen molecules),Base (untrained),1,3192,0.031,23.246,0.135,0.031,0.031
+ChEBI-20 test (unseen molecules),Base (untrained),2,3192,0.031,23.246,0.135,0.031,0.031
+ChEBI-20 test (unseen molecules),Original-CoT SFT,0,3192,3.728,92.544,4.028,71.491,24.371
+ChEBI-20 test (unseen molecules),Original-CoT SFT,1,3192,3.822,92.951,4.112,72.18,24.537
+ChEBI-20 test (unseen molecules),Original-CoT SFT,2,3192,3.697,93.891,3.937,71.272,24.131
+ChEBI-20 test (unseen molecules),Curated-CoT SFT,0,3192,6.015,93.828,6.411,73.308,27.573
+ChEBI-20 test (unseen molecules),Curated-CoT SFT,1,3192,6.454,94.204,6.851,74.781,27.622
+ChEBI-20 test (unseen molecules),Curated-CoT SFT,2,3192,6.078,93.045,6.532,73.34,27.256
+ChEBI-20 test (unseen molecules),Base -> GRPO,0,3192,3.728,87.406,4.265,72.838,26.105
+ChEBI-20 test (unseen molecules),Base -> GRPO,1,3192,3.947,87.312,4.521,69.518,25.322
+ChEBI-20 test (unseen molecules),Base -> GRPO,2,3192,3.665,87.939,4.168,71.773,25.868
+ChEBI-20 test (unseen molecules),Original-CoT SFT -> GRPO,0,3192,4.355,96.898,4.494,74.749,26.417
+ChEBI-20 test (unseen molecules),Original-CoT SFT -> GRPO,1,3192,4.825,98.12,4.917,76.378,26.873
+ChEBI-20 test (unseen molecules),Original-CoT SFT -> GRPO,2,3192,4.668,96.992,4.813,75.564,26.006
+ChEBI-20 test (unseen molecules),Curated-CoT SFT -> GRPO,0,3192,6.579,96.585,6.812,74.906,29.139
+ChEBI-20 test (unseen molecules),Curated-CoT SFT -> GRPO,1,3192,6.516,97.086,6.712,75.251,28.357
+ChEBI-20 test (unseen molecules),Curated-CoT SFT -> GRPO,2,3192,7.112,96.648,7.358,75.439,28.763
+SMolInstruct MG test (unseen molecules),Base (untrained),0,2191,0.046,24.053,0.19,0.046,0.046
+SMolInstruct MG test (unseen molecules),Base (untrained),1,2191,0.046,24.053,0.19,0.046,0.046
+SMolInstruct MG test (unseen molecules),Base (untrained),2,2191,0.046,24.053,0.19,0.046,0.046
+SMolInstruct MG test (unseen molecules),Original-CoT SFT,0,2191,2.145,91.921,2.334,70.151,22.132
+SMolInstruct MG test (unseen molecules),Original-CoT SFT,1,2191,2.282,92.834,2.458,70.927,22.459
+SMolInstruct MG test (unseen molecules),Original-CoT SFT,2,2191,2.282,93.519,2.44,70.014,22.3
+SMolInstruct MG test (unseen molecules),Curated-CoT SFT,0,2191,4.016,93.017,4.318,70.79,24.741
+SMolInstruct MG test (unseen molecules),Curated-CoT SFT,1,2191,4.336,93.565,4.634,73.528,24.961
+SMolInstruct MG test (unseen molecules),Curated-CoT SFT,2,2191,3.971,91.83,4.324,70.47,24.295
+SMolInstruct MG test (unseen molecules),Base -> GRPO,0,2191,2.236,84.893,2.634,70.561,24.179
+SMolInstruct MG test (unseen molecules),Base -> GRPO,1,2191,2.465,84.71,2.909,66.728,22.864
+SMolInstruct MG test (unseen molecules),Base -> GRPO,2,2191,2.328,85.942,2.708,70.242,23.977
+SMolInstruct MG test (unseen molecules),Original-CoT SFT -> GRPO,0,2191,2.738,96.394,2.841,72.98,24.027
+SMolInstruct MG test (unseen molecules),Original-CoT SFT -> GRPO,1,2191,2.693,98.174,2.743,74.258,24.174
+SMolInstruct MG test (unseen molecules),Original-CoT SFT -> GRPO,2,2191,2.967,96.988,3.059,74.669,23.911
+SMolInstruct MG test (unseen molecules),Curated-CoT SFT -> GRPO,0,2191,4.564,96.257,4.742,72.478,26.473
+SMolInstruct MG test (unseen molecules),Curated-CoT SFT -> GRPO,1,2191,4.016,96.896,4.145,73.939,25.758
+SMolInstruct MG test (unseen molecules),Curated-CoT SFT -> GRPO,2,2191,5.066,96.349,5.258,74.395,26.577

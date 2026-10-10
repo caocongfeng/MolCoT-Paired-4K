@@ -1,0 +1,6 @@
+label,name,count,share_pct
+1,Ineffective CoT,33,0.783289817232376
+2,Main-structure issue,1135,26.940422501780205
+3,Element issue,989,23.474958461903633
+4,Minor issue,1711,40.61239022074531
+5,Correct CoT,345,8.188938998338475

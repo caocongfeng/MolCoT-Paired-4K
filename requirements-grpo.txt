@@ -1,0 +1,14 @@
+# GRPO (grpo/): separate environment because vLLM pins its own PyTorch. Python 3.12.
+# Versions used for the paper (TRL 1.13 colocates a vLLM 0.29 engine with the trainer on one GPU).
+vllm==0.29.0
+torch==2.13.0
+transformers==5.15.1
+trl==1.13.0
+peft==0.20.0
+accelerate==1.15.0
+datasets==5.0.1
+rdkit==2026.3.6
+flash-linear-attention==0.5.2
+tilelang==0.1.12
+numpy
+wandb                         # optional (--no-wandb switches it off)
